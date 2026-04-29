@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primeiros passos com DOM</title>
+    <title>Primeiros passos com DOM</title> <!-- Child é o elemento filho de HTML, composto por head e body -->
+    <style>
+        body {
+            background: rgb(68, 125, 199);
+            color: white;
+            font: normal 20pt Aial;
+        }
+    </style>
 </head>
 <body>
     <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div>Clique em mim</div>
+    <script>
+        var p1 = document.getElementsByTagName('p')
+        window.document.write(p1[0].innerText)
+        p1.style.color = 'blue'
+    </script>
 </body>
 </html>
