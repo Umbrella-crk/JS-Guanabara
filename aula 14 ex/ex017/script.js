@@ -13,4 +13,5 @@ function gerarTabuada() {
             tabuada.style.width = '125px'
         }
     }
-}
+} // Array ou vetor é uma variavel que tem vários elementos,
+// cada elemento é composto por sua chave de identificação. 
